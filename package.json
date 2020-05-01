@@ -5,7 +5,9 @@
   "scripts": {
     "dist": "NODE_ENV=production npm run build && node utils/dist.js",
     "build": "node utils/build.js",
-    "start": "node utils/webserver.js"
+    "start": "node utils/webserver.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "babel-core": "^6.26.0",
@@ -33,7 +35,8 @@
     "style-loader": "^0.18.2",
     "webpack": "^3.6.0",
     "webpack-dev-server": "^2.8.2",
-    "write-file-webpack-plugin": "^4.1.0"
+    "write-file-webpack-plugin": "^4.1.0",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "babel-eslint": "^8.0.0",
@@ -44,5 +47,6 @@
     "eslint-plugin-promise": "^3.5.0",
     "eslint-plugin-react": "^7.4.0",
     "eslint-plugin-standard": "^3.0.1"
-  }
+  },
+  "snyk": true
 }
