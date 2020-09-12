@@ -1,0 +1,151 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.19.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - webpack-dev-server > chokidar > fsevents > node-pre-gyp > tar-pack > debug:
+        patched: '2020-09-12T00:51:25.123Z'
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > tar-pack > debug:
+        patched: '2020-09-12T00:51:25.123Z'
+  'npm:extend:20180424':
+    - webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > extend:
+        patched: '2020-09-12T00:51:25.123Z'
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > extend:
+        patched: '2020-09-12T00:51:25.123Z'
+  'npm:hoek:20180212':
+    - webpack-dev-server > chokidar > fsevents > node-pre-gyp > hawk > hoek:
+        patched: '2020-09-12T00:51:25.123Z'
+    - webpack-dev-server > chokidar > fsevents > node-pre-gyp > hawk > boom > hoek:
+        patched: '2020-09-12T00:51:25.123Z'
+    - webpack-dev-server > chokidar > fsevents > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2020-09-12T00:51:25.123Z'
+    - webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2020-09-12T00:51:25.123Z'
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > hoek:
+        patched: '2020-09-12T00:51:25.123Z'
+    - webpack-dev-server > chokidar > fsevents > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2020-09-12T00:51:25.123Z'
+    - webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2020-09-12T00:51:25.123Z'
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > boom > hoek:
+        patched: '2020-09-12T00:51:25.123Z'
+    - webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2020-09-12T00:51:25.123Z'
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2020-09-12T00:51:25.123Z'
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2020-09-12T00:51:25.123Z'
+    - webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-09-12T00:51:25.123Z'
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2020-09-12T00:51:25.123Z'
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2020-09-12T00:51:25.123Z'
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2020-09-12T00:51:25.123Z'
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-09-12T00:51:25.123Z'
+  SNYK-JS-LODASH-567746:
+    - babel-core > lodash:
+        patched: '2020-09-12T00:51:25.123Z'
+    - copy-webpack-plugin > lodash:
+        patched: '2020-09-12T00:51:25.123Z'
+    - eslint > lodash:
+        patched: '2020-09-12T00:51:25.123Z'
+    - html-webpack-plugin > lodash:
+        patched: '2020-09-12T00:51:25.123Z'
+    - react-dnd > lodash:
+        patched: '2020-09-12T00:51:25.123Z'
+    - react-dnd-html5-backend > lodash:
+        patched: '2020-09-12T00:51:25.123Z'
+    - write-file-webpack-plugin > lodash:
+        patched: '2020-09-12T00:51:25.123Z'
+    - babel-core > babel-types > lodash:
+        patched: '2020-09-12T00:51:25.123Z'
+    - babel-core > babel-generator > lodash:
+        patched: '2020-09-12T00:51:25.123Z'
+    - babel-core > babel-traverse > lodash:
+        patched: '2020-09-12T00:51:25.123Z'
+    - babel-core > babel-template > lodash:
+        patched: '2020-09-12T00:51:25.123Z'
+    - babel-plugin-transform-class-properties > babel-template > lodash:
+        patched: '2020-09-12T00:51:25.123Z'
+    - babel-core > babel-register > lodash:
+        patched: '2020-09-12T00:51:25.123Z'
+    - webpack > async > lodash:
+        patched: '2020-09-12T00:51:25.123Z'
+    - crx > archiver > lodash:
+        patched: '2020-09-12T00:51:25.123Z'
+    - eslint > inquirer > lodash:
+        patched: '2020-09-12T00:51:25.123Z'
+    - eslint > table > lodash:
+        patched: '2020-09-12T00:51:25.123Z'
+    - react-dnd > dnd-core > lodash:
+        patched: '2020-09-12T00:51:25.123Z'
+    - webpack-dev-server > http-proxy-middleware > lodash:
+        patched: '2020-09-12T00:51:25.123Z'
+    - babel-core > babel-generator > babel-types > lodash:
+        patched: '2020-09-12T00:51:25.123Z'
+    - babel-core > babel-traverse > babel-types > lodash:
+        patched: '2020-09-12T00:51:25.123Z'
+    - babel-core > babel-template > babel-types > lodash:
+        patched: '2020-09-12T00:51:25.123Z'
+    - babel-plugin-transform-class-properties > babel-template > babel-types > lodash:
+        patched: '2020-09-12T00:51:25.123Z'
+    - babel-plugin-transform-class-properties > babel-helper-function-name > babel-types > lodash:
+        patched: '2020-09-12T00:51:25.123Z'
+    - babel-core > babel-template > babel-traverse > lodash:
+        patched: '2020-09-12T00:51:25.123Z'
+    - babel-plugin-transform-class-properties > babel-template > babel-traverse > lodash:
+        patched: '2020-09-12T00:51:25.123Z'
+    - babel-plugin-transform-class-properties > babel-helper-function-name > babel-traverse > lodash:
+        patched: '2020-09-12T00:51:25.123Z'
+    - babel-core > babel-helpers > babel-template > lodash:
+        patched: '2020-09-12T00:51:25.123Z'
+    - babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > lodash:
+        patched: '2020-09-12T00:51:25.123Z'
+    - crx > archiver > archiver-utils > lodash:
+        patched: '2020-09-12T00:51:25.123Z'
+    - crx > archiver > async > lodash:
+        patched: '2020-09-12T00:51:25.123Z'
+    - webpack > watchpack > async > lodash:
+        patched: '2020-09-12T00:51:25.123Z'
+    - crx > archiver > zip-stream > lodash:
+        patched: '2020-09-12T00:51:25.123Z'
+    - react-dnd > dnd-core > redux > lodash:
+        patched: '2020-09-12T00:51:25.123Z'
+    - babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-09-12T00:51:25.123Z'
+    - babel-plugin-transform-class-properties > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-09-12T00:51:25.123Z'
+    - babel-plugin-transform-class-properties > babel-helper-function-name > babel-traverse > babel-types > lodash:
+        patched: '2020-09-12T00:51:25.123Z'
+    - babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2020-09-12T00:51:25.123Z'
+    - babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > babel-types > lodash:
+        patched: '2020-09-12T00:51:25.123Z'
+    - babel-plugin-transform-class-properties > babel-helper-function-name > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2020-09-12T00:51:25.123Z'
+    - babel-preset-react > babel-plugin-transform-react-jsx > babel-helper-builder-react-jsx > babel-types > lodash:
+        patched: '2020-09-12T00:51:25.123Z'
+    - babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2020-09-12T00:51:25.123Z'
+    - babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > babel-traverse > lodash:
+        patched: '2020-09-12T00:51:25.123Z'
+    - crx > archiver > zip-stream > archiver-utils > lodash:
+        patched: '2020-09-12T00:51:25.123Z'
+    - babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-09-12T00:51:25.123Z'
+    - babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-09-12T00:51:25.123Z'
+  'npm:stringstream:20180511':
+    - webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2020-09-12T00:51:25.123Z'
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2020-09-12T00:51:25.123Z'
+  'npm:tough-cookie:20170905':
+    - webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > tough-cookie:
+        patched: '2020-09-12T00:51:25.123Z'
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > tough-cookie:
+        patched: '2020-09-12T00:51:25.123Z'
