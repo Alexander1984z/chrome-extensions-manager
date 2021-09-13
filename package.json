@@ -16,7 +16,7 @@
     "classnames": "^2.2.5",
     "copy-webpack-plugin": "^4.0.1",
     "crx": "^3.2.1",
-    "css-loader": "^0.28.7",
+    "css-loader": "^1.0.0",
     "eslint": "^4.7.2",
     "file-loader": "^0.11.2",
     "fs-extra": "^4.0.2",
@@ -32,7 +32,7 @@
     "react-dom": "^15.6.1",
     "style-loader": "^0.18.2",
     "webpack": "^3.6.0",
-    "webpack-dev-server": "^2.8.2",
+    "webpack-dev-server": "^4.0.0",
     "write-file-webpack-plugin": "^4.1.0"
   },
   "devDependencies": {
